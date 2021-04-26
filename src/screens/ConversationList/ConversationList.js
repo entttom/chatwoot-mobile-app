@@ -294,7 +294,7 @@ class ConversationListComponent extends Component {
     const unAssignedCount = meta ? `(${meta.unassigned_count})` : '';
     const allCount = meta ? `(${meta.all_count})` : '';
 
-    const headerTitle = inBoxName ? `${inBoxName} (${conversationStatus})` : '';
+    const headerTitle = i18n.t('FOOTER.CONVERSATION');
 
     return (
       <SafeAreaView style={style.container}>

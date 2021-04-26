@@ -43,11 +43,12 @@ const AvailabilityScreenComponent = ({ eva: { style }, navigation }) => {
       <HeaderBar title={i18n.t('SETTINGS.AVAILABILITY')} showLeftButton onBackPress={goBack} />
       <View style={style.itemMainView}>
         {availabilityTypes.map((item) => {
+	        let uppercase_item = item.toUpperCase()
           return (
             <AvailabilityItem
               key={item}
               item={item}
-              title={AVAILABILITY_TYPES[item]}
+              title={i18n.t(`AVAILABILITY.${[uppercase_item]}`)}
               isChecked={availabilityStatus === item ? true : false}
               onCheckedChange={onCheckedChange}
             />

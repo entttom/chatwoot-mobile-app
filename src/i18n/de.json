@@ -3,7 +3,7 @@
   "COMMON": {
     "ERROR": "Fehler",
     "ERROR_TITLE": "Unerwarteter Fehler aufgetreten",
-    "REPORT_MESSAGE": "Wir haben dies unserem Team gemeldet! Bitte schließen Sie die App und starten Sie erneut!",
+    "REPORT_MESSAGE": "Wir haben dies unserem Team gemeldet! Bitte schließen Sie die App und starten Sie diese erneut!",
     "CLOSE": "Schließen"
   },
   "FOOTER": {
@@ -32,7 +32,7 @@
     "CREATE_ACCOUNT": "Neuen Account erstellen",
     "SETTINGS": "Einstellungen",
     "CHANGE_LANGUAGE": "Sprache ändern",
-    "TERMS": "Terms & Conditions",
+    "TERMS": "AGBs",
     "CHANGE_URL": "URL ändern"
   },
   "FORGOT_PASSWORD": {
@@ -46,18 +46,18 @@
   "CONVERSATION": {
     "DEFAULT_HEADER_TITLE": "Konversationen",
     "MINE": "Meine",
-    "UN_ASSIGNED": "Nicht zugewiesen",
+    "UN_ASSIGNED": "Offen",
     "ALL": "Alle",
     "EMPTY": "Es gibt keine aktiven Konversationen in dieser Gruppe.",
     "PICTURE_CONTENT": "Bildnachricht",
     "ATTACHMENT_CONTENT": "Dateianhang",
     "DOWNLOAD": "Download",
     "TODAY": "Heute",
-    "YESTERDAY": "Gesntern",
+    "YESTERDAY": "Gestern",
     "TYPE_MESSAGE": "Nachricht eingeben",
     "TYPING": "tippt",
     "ALL_CONVERSATION_LOADED": "All Nachrichten geladen",
-    "RESOLVE": "Konversation gelöst",
+    "RESOLVE": "Konversation beenden",
     "RE_OPEN": "Konversation wiedereröffnen",
     "ASSIGN": "Konversation zuweisen",
     "FILE_SIZE_LIMIT": "Die Datei ist größer als das 40MB Limit.",
