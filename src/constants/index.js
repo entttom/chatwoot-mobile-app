@@ -45,8 +45,8 @@ export const INBOX_IMAGES = {
 
 export const LANGUAGES = {
   en: 'English',
+  de: 'German',
   nl: 'Dutch',
-  tr: 'Turkish',
 };
 
 export const URL_REGEX = {
