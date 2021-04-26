@@ -47,13 +47,13 @@ const ConfigureURLScreenComponent = ({ eva }) => {
   const dispatch = useDispatch();
   const inputRef = useRef(null);
   const [values, setValues] = useState({
-    url: appName === 'Chatwoot' ? 'app.chatwoot.com' : null,
+    url: appName === 'MaaS.work' ? 'chat.maas.work' : null,
   });
 
   const options = {
     fields: {
       url: {
-        placeholder: 'Ex: app.chatwoot.com',
+        placeholder: 'chat.maas.work',
         template: (props) => <TextInputField {...props} />,
         error: i18n.t('CONFIGURE_URL.URL_ERROR'),
         autoCapitalize: 'none',
