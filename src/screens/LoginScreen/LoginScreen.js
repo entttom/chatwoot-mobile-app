@@ -155,7 +155,7 @@ const LoginScreenComponent = ({ navigation, eva }) => {
 
           <View>
             <View style={style.accountView}>
-              {appName === 'Chatwoot' && (
+              {appName === 'MaaS.work' && (
                 <>
                   <TouchableOpacity onPress={doSignup}>
                     <CustomText style={style.textStyle}>
